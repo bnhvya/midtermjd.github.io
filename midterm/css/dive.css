@@ -1,0 +1,178 @@
+
+body {
+    cursor: url(file:///C:/Users/jessi/Downloads/fish-solid.svg), auto;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  section {
+    width:100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 4.5em;
+    text-transform: uppercase;
+    text-align: right;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    flex-basis: 50%;
+    padding-right:1em ;
+    padding-left: 3em;
+    position: sticky;
+    top: 100px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h2 {
+    font-size: 6em;
+    text-transform: uppercase;
+    position: sticky;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  p {
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    position: sticky;
+    top: 100px;
+    flex-basis: 50%;
+    display:flex;
+    flex-direction: column-reverse;
+    background: #fff;
+    border-radius: 10px;
+    color:#333;
+    font-family: 'Roboto', sans-serif;
+  }
+
+   
+  section {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.button{
+    display: flex;
+    align-items: right;
+    height: 10vh;
+    background: #ffffff;
+    font-family:'Roboto', sans-serif, bold;
+    text-transform: uppercase;
+    font-size: 50px;
+    color:#333;
+    position:right;
+    padding:10px;
+  }
+  
+  .button{
+  padding: 100px 100px;
+  background-color: #ffffff;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  letter-spacing: 5px;
+  overflow: hidden;
+  transition: 1s;
+  cursor: pointer;
+  position:absolute;
+  padding:10px;
+  }
+  
+  .button:hover{
+    background: #ffffff;
+    color: #333;
+    box-shadow: 0 0 5px #ddeeff,
+                0 0 25px #93d4ff,
+                0 0 50px #2173ff,
+                0 0 100px #7aa6ff;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+  }
+  .button_1{
+    display: flex;
+    align-items: left;
+    height: 10vh;
+    background: #ffffff;
+    font-family:'Roboto', sans-serif, bold;
+    text-transform: uppercase;
+    font-size: 50px;
+    color:#333;
+    position:left;
+    padding:10px;
+    left: 15em;
+  }
+  
+  .button_1{
+  padding: 100px 100px;
+  background-color: #ffffff;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  letter-spacing: 5px;
+  overflow: hidden;
+  transition: 1s;
+  cursor: pointer;
+  position:absolute;
+  padding:10px;
+  left: 15em;
+  }
+  
+  .button_1:hover{
+    background: #ffffff;
+    color: #333;
+    box-shadow: 0 0 5px #ddeeff,
+                0 0 25px #93d4ff,
+                0 0 50px #2173ff,
+                0 0 100px #7aa6ff;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+  }
+
+  /*separator */
+
+section:nth-child(1) {
+    background-image: url(https://i.pinimg.com/originals/be/14/1b/be141b5f8bfd10a522176b7c612b9fd0.gif);
+    background-size: cover;
+    align-items: baseline;
+   }
+  
+section:nth-child(2) {
+    background-image: url(https://gpres.weebly.com/uploads/2/2/7/3/22733438/coral_orig.gif);
+    background-size: cover;
+    align-items: baseline;
+  } 
+
+  section:nth-child(3) {
+    background-image: url(https://www.4ocean.com/cdn/shop/articles/ezgif.com-optimize-2_small-1702497291329_2ed84b77-b99f-4772-a398-3a3f7dc41620.gif?v=1702918550);
+    background-size: cover;
+    align-items: baseline;
+   }
+
+   section:nth-child(4) {
+    background-image: url(https://cdn.shopify.com/s/files/1/0996/1022/t/1375/assets/ezgif.com-optimize-7-1702498494206_800x.gif?v=1702498495);
+    background-size: cover;
+    align-items: baseline;
+   }
